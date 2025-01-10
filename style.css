@@ -1,0 +1,88 @@
+body{
+    margin:  0;
+    padding: 0;
+    
+}
+nav{
+    /* move around */
+    display: flex;
+    /* moves to the right end */
+    justify-content: flex-end;
+    padding: 8px;
+    
+}
+nav ul{
+    
+    /* displays it now horizontally */
+    display: flex;
+    /* background-color: aqua; */
+    padding: 9px;
+}
+nav ul li{
+    /* remove dots */
+    list-style-type: none;
+    /* space them */
+    padding-right:30px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(66, 62, 62);
+}
+nav ul li a:hover {
+    color:aquamarine;
+    border-bottom: 3px solid rgb(176, 243, 117);
+  }
+.homepage{
+    margin: 40px;
+    width:90%;
+    height: 100vh;
+    background-image: url(images/fashion-stylish-sneakers-with-flying-laces-running-sports-shoes-orange-background-close-up_179369-778.avif);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.item{
+    margin-left: 40px;
+    padding-bottom: 0;
+}
+.shoe{
+    justify-content: left;
+    padding: 0% ;
+}
+.shoe ul li a:hover {
+    color:aquamarine;
+    padding:12px;
+    border-bottom: 3px solid rgb(176, 243, 117);
+  }
+.item p{
+ padding-top: 0;
+}
+.color-circle span { 
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.color-red { background-color: red; }
+.color-blue { background-color: blue; } 
+.color-green { background-color: green;}
+
+.card-wishlist{
+    display: flex;
+    /* justify-content: flex-end; */
+    padding-left: 150px;
+}
+
+.card-wishlist a{
+    text-decoration: none;
+    padding:20px;
+    font-size: 20px;
+    color:rgb(25, 28, 27);
+}
+.card-wishlist a:hover {
+    color:aquamarine;
+    border-bottom: 3px solid rgb(176, 243, 117);
+  }

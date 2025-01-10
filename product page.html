@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEEZY</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<body>
+    <section class="homepage">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Account</a></li>
+                <li><a href="">card</a></li>
+            </ul>
+        
+        </nav>
+    </header>
+    <main>
+        <div class="item">
+        <div>
+            <h1 style="font-size: 30px">Nike Air Yeezy </h1>
+        </div>
+        <div>$450.00</div>
+
+        <nav class="shoe">
+            <ul>
+            <li><a href="">Description</a></li>
+            <li><a href="">Details</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">Size & Fit</a></li>
+          </ul>
+        </nav>
+        <p>Snake and lizard back heel shape composed of<br> exception catches, the second generation of <br>limits and sought more crazy expensive.</p>
+        <div class="color-circle">
+            <h3>Colours</h3>
+            <span class="color-red"></span>
+            <span class="color-blue"></span>
+            <span class="color-green"></span>
+        </div>
+        <div class="quantity-selector"> 
+            <h5>Quantity: </h5> 
+            <button onclick="decreaseQuantity()">-</button> 
+            <input type="number" id="quantity" name="quantity" value="1" min="1" max="4"> 
+            <button onclick="increaseQuantity()">+</button> 
+        </div>
+
+        <div class="card-wishlist">
+            <submit><a href="">Add to Card</a></submit>
+            <submit><a href="">Wishlist</a></submit>
+        </div>
+        
+    </div>
+    
+    </main>
+</section>
+<script>
+ function decreaseQuantity() { 
+    let qty = document.getElementById('quantity');
+    if (qty.value > 1) { 
+        qty.value--; 
+        } 
+    } 
+    function increaseQuantity() { 
+        let qty = document.getElementById('quantity'); 
+        qty.value++; 
+        } 
+</script>
+</body>
+
+</html>
